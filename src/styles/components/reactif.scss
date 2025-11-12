@@ -1,0 +1,35 @@
+.swiper_decoration {
+    background: var(--color-primary);
+
+    h2 {
+        font-size: typo(30px, 40px);
+    }
+
+    .card__content {
+        color: var(--color-black);
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+
+        h3 {
+            font-size: typo(16px);
+            text-transform: uppercase;
+        }
+
+        .tag {
+            font-weight: light;
+            text-transform: uppercase;
+        }
+
+        a {
+            background-color: var(--color-white);
+            color: var(--color-black);
+            font-weight: bold;
+            padding: 16px 8px;
+            border-radius: 99px;
+        }
+    }
+}
+.overflow {
+    overflow: hidden;
+}

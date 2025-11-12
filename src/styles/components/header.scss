@@ -1,0 +1,16 @@
+.header {
+    padding: 25px 0;
+    background-color: rgba($color: #000, $alpha: 0.7);
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        color: var(--color-bg-primary);
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
