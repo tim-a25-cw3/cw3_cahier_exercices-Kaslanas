@@ -6,4 +6,28 @@
     p {
         font-weight: lighter;
     }
+
+
+}
+
+.contact{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 56px;
+
+.icon{
+
+
+fill: #8C8C8C;
+
+&:hover{
+
+fill: var(--color-white);
+
+}
+
+}
+
 }
