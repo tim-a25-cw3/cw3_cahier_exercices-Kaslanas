@@ -1,7 +1,10 @@
 .section {
+
+        margin: 25px 0;
     h2 {
         color: var(--color-white);
         font-size: typo(30px, 40px);
+        font-weight: 100;
     }
 }
 
@@ -59,5 +62,33 @@
         font-weight: bold;
         padding: 16px 8px;
         border-radius: 99px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        &:hover{
+
+
+            text-decoration: none;
+
+        }
     }
+
+    p{
+
+        font-weight: 100;
+        font-size: typo(24px, 32px);
+
+    }
+}
+
+.icon{
+
+font-size: 26px;
+
+
+}
+
+.swiper-pagination{
+
+margin-bottom: 50px;
+
 }

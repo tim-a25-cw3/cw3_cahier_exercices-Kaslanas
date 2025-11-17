@@ -1,8 +1,10 @@
 .swiper_decoration {
     background: var(--color-primary);
+    padding: 110px 80px;
 
     h2 {
         font-size: typo(30px, 40px);
+        font-weight: 300;
     }
 
     .card__content {

@@ -1,12 +1,24 @@
 .footer {
     text-align: center;
     color: var(--color-white);
+    padding: 40px;
+    .wrapper{
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 
     h2,
     p {
         font-weight: lighter;
+        margin: 0;
     }
 
+    .titre_sous-titre{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;}
 
 }
 
@@ -19,7 +31,8 @@ gap: 56px;
 
 .icon{
 
-
+height: 32px;
+width: 32px;
 fill: #8C8C8C;
 
 &:hover{
