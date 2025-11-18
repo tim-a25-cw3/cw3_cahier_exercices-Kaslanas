@@ -34,4 +34,8 @@
 }
 .overflow {
     overflow: hidden;
+    @media (width<= $breakpoint-md) {
+       height: 1050px; 
+    }
+    
 }

@@ -20,6 +20,7 @@
     align-items: center;
     @media (width<= $breakpoint-md) {
         flex-direction: column;
+        
     }
 }
 
@@ -92,6 +93,8 @@ font-size: 26px;
 display: flex;
 justify-content: center;
 gap: 10px;
+position: absolute;
+bottom: 40px !important;
 --swiper-pagination-bullet-width: 20px;
 --swiper-pagination-bullet-height: 20px;
 --swiper-pagination-bullet-border-radius: 0;
